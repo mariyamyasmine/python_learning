@@ -1,3 +1,4 @@
+def games():
 option = ["rock", "paper", "scissor"]
 user1 = input("Enter your move (rock, paper, scissor): ") 
 user2 = input("Enter your move (rock, paper, scissor): ") 
@@ -22,4 +23,6 @@ elif(user1 == "paper" and user2 == "scissor"):
 elif(user1 == "rock" and user2 == "paper"):
     print("user2 wins!")
 else:
-        print("invalid input")
+    print("invalid input")
+    
+games()    
