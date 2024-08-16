@@ -26,3 +26,5 @@ else:
     print("invalid input")
     
 games()    
+
+print("Game starts")
